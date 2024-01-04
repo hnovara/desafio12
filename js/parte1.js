@@ -47,3 +47,17 @@ contenedor3.appendChild(checkbox);
 contenedor3.appendChild(label);
 
 // Ejercicio 5:
+function changeColor(circle) {
+   let selectedColor = selectElement.value;
+
+   if (checkbox.checked) {
+       let circles = document.getElementsByClassName('circle');
+       for (let i = 0; i < circles.length; i++) {
+           circles[i].style.backgroundColor = selectedColor;
+        }
+    } else {
+        circle.style.backgroundColor = selectedColor;
+    }
+}
+
+
