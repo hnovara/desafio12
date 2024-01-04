@@ -32,3 +32,18 @@ arreglo.forEach(function(color) {
 
 let contenedor2 = document.getElementById("container2");
 contenedor2.appendChild(selectElement);
+
+// Ejercicio 4:
+let checkbox = document.createElement('input');
+checkbox.type = 'checkbox';
+checkbox.id = 'superpuesto-checkbox';
+
+let label = document.createElement('label');
+label.htmlFor = 'superpuesto-checkbox';
+label.textContent = 'Modo superpuesto';
+
+let contenedor3 = document.getElementById("container3");
+contenedor3.appendChild(checkbox);
+contenedor3.appendChild(label);
+
+// Ejercicio 5:
