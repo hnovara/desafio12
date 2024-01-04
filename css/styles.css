@@ -1,0 +1,85 @@
+/* Ejercicio 2:
+Sitio web de referencia:   https://www.cebra.com.ar/
+Paleta:
+Color1: #0074C1 ;
+Color2: #00A8FB ;
+Color3: #FCD85E ;
+Color4: #39B54A ; */
+html {
+    font-size: 16px;
+
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    align-items: center;
+    background-color: #0074C1;
+    display: flex;
+    height: 6rem;
+    margin: 0;
+    justify-content: space-evenly;
+}
+main {
+    background: url(../img/cebra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+h1 {
+    background-color: #39B54A;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin: 0;
+    padding: 0.25rem;
+    text-transform: uppercase;
+}
+h2 {
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    background-color: #FCD85E;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: bold;
+    height: 1.5rem;
+    padding: 0.25rem;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #fde596;
+    cursor: pointer;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: inline-block;
+    margin: 1.5rem 1rem;
+}
+.card-title {
+    background-color: #00A8FB;
+    border-radius: 0.75rem;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0;
+    text-align: center;
+}
+.card-title:hover {
+    background-color: #39B54A;
+    cursor: pointer;
+}
+img {
+    border-radius: 0.75rem;
+    width:100%
+}
+
+
+
+
